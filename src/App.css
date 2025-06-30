@@ -12,6 +12,8 @@ body, html {
 .container {
   text-align: center;
   padding-top: 20vh;
+  height:1000px;
+
 }
 
 .box {
@@ -23,13 +25,14 @@ body, html {
 }
 
 .jp-text {
-  font-size: 2rem;
+  font-size: 6rem;
   margin-bottom: 20px;
 }
 
 .en-text {
-  font-size: 2.5rem;
+  font-size: 6rem;
   font-weight: bold;
+  transform: scaleX(-1)
 }
 
 button {
@@ -41,4 +44,7 @@ button {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+}
+.transform{
+  transform: scaleX(-1)
 }

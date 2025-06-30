@@ -60,6 +60,9 @@ function App() {
         <div className="en-text">{translation}</div>
       </div>
       <button onClick={startListening}>🎤 話す</button>
+      <div>
+        <p>🎤 話すのボタンを押してください</p>
+      </div>
     </div>
   );
 }
