@@ -38,7 +38,8 @@ function App() {
   };
 
   return (
-    <div className="container">
+    // ↓↓↓ この行を修正しました ↓↓↓
+    <div className="container" style={{ marginTop: '-50px' }}>
       <h1>翻訳ディスプレイ</h1>
       <div>
         <label>入力言語: </label>
@@ -68,4 +69,3 @@ function App() {
 }
 
 export default App;
-
